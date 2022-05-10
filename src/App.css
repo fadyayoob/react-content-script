@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+
+.extension-toolbar {
+  margin-top: 10%;
+  width: 40px;
+  /* height: 231px; */
+  background: #E7F9EF;
+  border-radius: 52px;
+  position: fixed;
+  z-index: 9999999999999999;
+  margin-left: calc(100% - 45px);
+  padding-bottom: 20px;
+}
+#extension-toolbar-popup{
+  display: none;
+}
+.extension-toolbar-popup{
+  float:left;
+  position: fixed;
+  width: 300px;
+  min-height: 314px;
+  max-height: 484px;
+  background: #E7F9EF;
+  border-radius: 17px;
+  position: fixed;
+  z-index: 9999999999999999;
+  margin-left: -305px;
+  margin-top: -280px !important ;
+}
+.extension-toolbar-btns{
+  margin-top: 15px !important;
+  padding:5px;
+  cursor: pointer;
+}
+
+.extension-toolbar-btns-active{
+  background-color: #6ACC9E;
+  border-radius: 7px;
+}
+.extension-toolbar-btns:first-of-type{
+  margin-top: 20px !important;
+}
+
+.extension-toolbar-tooltip{
+  display: none;
+  position: absolute;
+  width: 234px;
+  color: #fff;
+  background: #1D8E6A;
+  border-radius: 5px 0px 0px 5px;
+  margin-top :-70%;
+  padding: 5px;
+  font-weight: 500;
+  margin-left:-250px;
+}
+
+.Collections-Empty-State{
+
+  position: absolute;
+  font-weight: 400;
+  font-size: 15px;
+  width: 200px;
+  text-align: center;
+  padding: 19px !important;
+  margin : -120px !important;
+  margin-top: 40px !important;
+  border: dashed 3px rgba(31, 77, 55, 0.2) ;
+  color: rgba(31, 77, 55, 0.75);
+}
+
+
+.Add-new-collection {
+  position: absolute;
+  bottom: 0 !important;
+}
+
+.poppup-side-text{
+  color: #1F4D37;
+  margin: 20px ;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  margin-left: -140px;
+  padding: top 20px !important;
+}
+
+.save-btn{
+  margin-left: 200px;
+}
+
+.Collectionlist-popup{
+  margin-bottom: 100px;
+}
+
+.extension-toolbar-popup-note-container1{
+  width: 298px;
+  height: 105px;
+
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 17px 17px 0px 0px;
+}
+
